@@ -29,12 +29,11 @@ header {
     align-items: center;
 
 }
-h2 {
-   text-align: center;
-}
+
+
 article {
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       align-items: center;
 }
 
@@ -84,18 +83,13 @@ footer {
 .photo {
     max-width: 600px;
     line-height: 30px;
-    margin: 40px;
+    margin: 50px;
 
   }
 .text {
     max-width: 600px;
-    background-color: #fff;
-    padding: 80px;
     font-size: 15px;
     line-height: 30px;
-    margin: 30px;
-
-
 }
 
 
@@ -123,20 +117,18 @@ footer {
 /* --- link pseudo classes --- */
 /* --- you may ADD other link pseudo classes for
         specific articles or sections to improve CONTRAST --- */
-
-a {
+        a {
+                    color: #82e8ff;
+        }
+        a:hover {
             color: #82e8ff;
 
-}
-a:hover {
-    color: #82e8ff;
-
-}
-nav a {
+        }
+        nav a:link {
+                    color: #379cb2;
+                    text-decoration: none;
+        }
+        nav a:hover {
             color: #379cb2;
             text-decoration: none;
-}
-nav a:hover {
-    color: #379cb2;
-    text-decoration: none;
-}
+        }      
